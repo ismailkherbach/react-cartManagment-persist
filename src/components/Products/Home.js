@@ -28,7 +28,7 @@ const Home = (props) => {
             return (
               <div
                 key={i}
-                className="col-lg-3 col-12 d-flex flex-column justify-content-center align-items-center"
+                className="col-sm-12 col-md-6 col-xl-3 col-12 d-flex flex-column justify-content-center align-items-center"
               >
                 <div className="product container-fluid  d-flex flex-column justify-content-center align-items-center">
                   <div className="image-mask d-flex flex-column justify-content-center align-items-center">
