@@ -15,8 +15,5 @@ class AppLayout extends Component {
     );
   }
 }
-const mapStateToProps = ({ settings }) => {
-  return { settings };
-};
 
 export default withRouter(connect()(AppLayout));
